@@ -9,7 +9,7 @@ public partial class App : Application
 		var navPage = new NavigationPage(new MainPage());
 		navPage.BarBackground = Colors.Chocolate;
 		navPage.BarTextColor = Colors.White;
-		MainPage = new FlyoutPageDemo();
+		MainPage = new TabbedPageDemo();
 	}
 }
 
