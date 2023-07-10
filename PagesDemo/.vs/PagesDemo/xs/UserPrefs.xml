@@ -2,9 +2,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F49A619E-FE55-4657-9BBF-123C412DE12D" />
   <MonoDevelop.Ide.ItemProperties.PagesDemo PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F49A619E-FE55-4657-9BBF-123C412DE12D" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.Workbench ActiveDocument="PagesDemo/Flyout.xaml">
     <Files>
       <File FileName="PagesDemo/MainPage.xaml.cs" />

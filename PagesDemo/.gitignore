@@ -1,0 +1,21 @@
+﻿# Ignore build output
+/bin/
+/obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.vs/
+*.sln.docstates
+
+# Ignore NuGet packages
+*.nuget.props
+*.nuget.targets
+packages/
+
+# Ignore .NET MAUI specific files
+*.maui
+*.maui.csproj
+*.maui.projitems
+*.maui.user
+*.maui.targets
