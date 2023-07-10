@@ -28,6 +28,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = PagesDemo.ContentPageDemo.
 build_metadata.AdditionalFiles.TargetPath = ContentPageDemo.xaml
 build_metadata.AdditionalFiles.RelativePath = ContentPageDemo.xaml
 
+[/Users/bks-ggs/Documents/GitHub/DotNetMaui/PagesDemo/PagesDemo/FlyoutPageDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PagesDemo.FlyoutPageDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = FlyoutPageDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = FlyoutPageDemo.xaml
+
 [/Users/bks-ggs/Documents/GitHub/DotNetMaui/PagesDemo/PagesDemo/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PagesDemo.MainPage.xaml
