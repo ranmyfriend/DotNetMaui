@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="GridDemo.app/GridDemo">
+      <BCSymbolMapName>GridDemo.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>GridDemo.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/bks-ggs/Documents/GitHub/DotNetMaui/GridDemo/GridDemo/obj/Debug/net7.0-ios/iossimulator-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>GridDemo.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/bks-ggs/Documents/GitHub/DotNetMaui/GridDemo/GridDemo</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

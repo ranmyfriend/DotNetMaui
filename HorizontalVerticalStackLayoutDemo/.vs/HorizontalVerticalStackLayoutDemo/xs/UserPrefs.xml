@@ -1,4 +1,33 @@
 ﻿<Properties StartupConfiguration="{85BEE28D-C8C5-4E77-96E4-F0D7265BA63B}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F49A619E-FE55-4657-9BBF-123C412DE12D" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.HorizontalVerticalStackLayoutDemo FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HorizontalVerticalStackLayoutDemo/App.xaml.cs">
+    <Files>
+      <File FileName="HorizontalVerticalStackLayoutDemo/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="HorizontalVerticalStackLayoutDemo/MainPage.xaml" Line="11" Column="1" />
+      <File FileName="HorizontalVerticalStackLayoutDemo/HorizontalStackLayoutDemo.xaml" Line="26" Column="42" />
+      <File FileName="HorizontalVerticalStackLayoutDemo/VerticalStackLayoutDemo.xaml" Line="22" Column="28" />
+      <File FileName="HorizontalVerticalStackLayoutDemo/App.xaml.cs" Line="1" Column="44" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HorizontalVerticalStackLayoutDemo" expanded="True">
+            <Node name="HorizontalVerticalStackLayoutDemo">
+              <Node name="App.xaml" expanded="True">
+                <Node name="App.xaml.cs" selected="True" />
+              </Node>
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.HorizontalVerticalStackLayoutDemo PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F49A619E-FE55-4657-9BBF-123C412DE12D" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
