@@ -1,4 +1,32 @@
 ﻿<Properties StartupConfiguration="{CE8DAF04-8A87-4ACB-BB84-BBEF80A6EB82}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F49A619E-FE55-4657-9BBF-123C412DE12D" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.GridDemo FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GridDemo/GridDemoPage.xaml">
+    <Files>
+      <File FileName="GridDemo/MainPage.xaml.cs" />
+      <File FileName="GridDemo/MainPage.xaml" Line="10" Column="26" />
+      <File FileName="GridDemo/GridDemoPage.xaml" Line="13" Column="31" />
+      <File FileName="GridDemo/App.xaml" Line="1" Column="1" />
+      <File FileName="GridDemo/App.xaml.cs" Line="12" Column="1" />
+      <File FileName="GridDemo/GridDemoPage.xaml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GridDemo" expanded="True">
+            <Node name="GridDemo">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.GridDemo PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F49A619E-FE55-4657-9BBF-123C412DE12D" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
