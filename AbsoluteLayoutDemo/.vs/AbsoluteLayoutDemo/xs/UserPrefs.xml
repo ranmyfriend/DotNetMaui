@@ -1,4 +1,30 @@
 ﻿<Properties StartupConfiguration="{473F565A-B0AB-4B2B-8E87-A9D08A4DF4AC}|Default">
-  <MonoDevelop.Ide.ItemProperties.AbsoluteLayoutDemo FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AbsoluteLayoutDemo/AbsoluteLayoutPage.xaml">
+    <Files>
+      <File FileName="AbsoluteLayoutDemo/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="AbsoluteLayoutDemo/MainPage.xaml" Line="5" Column="1" />
+      <File FileName="AbsoluteLayoutDemo/AbsoluteLayoutPage.xaml" Line="8" Column="22" />
+      <File FileName="AbsoluteLayoutDemo/App.xaml.cs" Line="12" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AbsoluteLayoutDemo" expanded="True">
+            <Node name="AbsoluteLayoutDemo">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.AbsoluteLayoutDemo PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F49A619E-FE55-4657-9BBF-123C412DE12D" />
   <MultiItemStartupConfigurations />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F49A619E-FE55-4657-9BBF-123C412DE12D" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
