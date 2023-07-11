@@ -2,25 +2,37 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F49A619E-FE55-4657-9BBF-123C412DE12D" />
   <MonoDevelop.Ide.ItemProperties.PagesDemo PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F49A619E-FE55-4657-9BBF-123C412DE12D" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PagesDemo/Flyout.xaml">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="PagesDemo/TabbedPageDemo.xaml">
     <Files>
-      <File FileName="PagesDemo/MainPage.xaml.cs" />
+      <File FileName="PagesDemo/MainPage.xaml.cs" Line="9" Column="25" />
       <File FileName="PagesDemo/MainPage.xaml" />
-      <File FileName="PagesDemo/App.xaml.cs" Line="13" Column="3" />
-      <File FileName="PagesDemo/ContentPageDemo.xaml" Line="10" Column="38" />
+      <File FileName="PagesDemo/App.xaml.cs" Line="12" Column="23" />
+      <File FileName="PagesDemo/ContentPageDemo.xaml" />
       <File FileName="PagesDemo/ContentPageDemo.xaml.cs" />
-      <File FileName="PagesDemo/Flyout.xaml.cs" Line="8" Column="3" />
-      <File FileName="PagesDemo/Flyout.xaml" Line="1" Column="1" />
+      <File FileName="PagesDemo/FlyoutPageDemo.xaml.cs" Line="3" Column="41" />
+      <File FileName="PagesDemo/FlyoutPageDemo.xaml" Line="13" Column="29" />
+      <File FileName="PagesDemo/TabbedPageDemo.xaml" Line="8" Column="33" />
+      <File FileName="PagesDemo/TabbedPageDemo.xaml.cs" Line="6" Column="3" />
+      <File FileName="PagesDemo/Platforms/iOS/Program.cs" Line="12" Column="30" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PagesDemo" expanded="True">
-            <Node name="PagesDemo">
+            <Node name="PagesDemo" expanded="True">
+              <Node name="Platforms" expanded="True">
+                <Node name="iOS" expanded="True" />
+              </Node>
+              <Node name="Resources" expanded="True">
+                <Node name="Images" expanded="True" />
+              </Node>
               <Node name="App.xaml" expanded="True" />
-              <Node name="Flyout.xaml" expanded="True" selected="True" />
+              <Node name="FlyoutPageDemo.xaml" expanded="True" />
               <Node name="MainPage.xaml" expanded="True" />
+              <Node name="TabbedPageDemo.xaml" expanded="True" />
             </Node>
           </Node>
         </State>

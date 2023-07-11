@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="StackLayoutDemo.app/Contents/MacOS/StackLayoutDemo">
+      <BCSymbolMapName>StackLayoutDemo.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>StackLayoutDemo.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/bks-ggs/Documents/GitHub/DotNetMaui/StackLayoutDemo/StackLayoutDemo/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>StackLayoutDemo.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/bks-ggs/Documents/GitHub/DotNetMaui/StackLayoutDemo/StackLayoutDemo</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>
