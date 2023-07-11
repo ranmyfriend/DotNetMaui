@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="HorizontalVerticalStackLayoutDemo.app/Contents/MacOS/HorizontalVerticalStackLayoutDemo">
+      <BCSymbolMapName>HorizontalVerticalStackLayoutDemo.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>HorizontalVerticalStackLayoutDemo.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/bks-ggs/Documents/GitHub/DotNetMaui/HorizontalVerticalStackLayoutDemo/HorizontalVerticalStackLayoutDemo/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>HorizontalVerticalStackLayoutDemo.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/bks-ggs/Documents/GitHub/DotNetMaui/HorizontalVerticalStackLayoutDemo/HorizontalVerticalStackLayoutDemo</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,53 @@
+is_global = true
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HorizontalVerticalStackLayoutDemo
+build_property.ProjectDir = /Users/bks-ggs/Documents/GitHub/DotNetMaui/HorizontalVerticalStackLayoutDemo/HorizontalVerticalStackLayoutDemo/
+
+[/Users/bks-ggs/Documents/GitHub/DotNetMaui/HorizontalVerticalStackLayoutDemo/HorizontalVerticalStackLayoutDemo/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HorizontalVerticalStackLayoutDemo.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/bks-ggs/Documents/GitHub/DotNetMaui/HorizontalVerticalStackLayoutDemo/HorizontalVerticalStackLayoutDemo/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HorizontalVerticalStackLayoutDemo.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/bks-ggs/Documents/GitHub/DotNetMaui/HorizontalVerticalStackLayoutDemo/HorizontalVerticalStackLayoutDemo/HorizontalStackLayoutDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HorizontalVerticalStackLayoutDemo.HorizontalStackLayoutDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = HorizontalStackLayoutDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = HorizontalStackLayoutDemo.xaml
+
+[/Users/bks-ggs/Documents/GitHub/DotNetMaui/HorizontalVerticalStackLayoutDemo/HorizontalVerticalStackLayoutDemo/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HorizontalVerticalStackLayoutDemo.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[/Users/bks-ggs/Documents/GitHub/DotNetMaui/HorizontalVerticalStackLayoutDemo/HorizontalVerticalStackLayoutDemo/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HorizontalVerticalStackLayoutDemo.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/bks-ggs/Documents/GitHub/DotNetMaui/HorizontalVerticalStackLayoutDemo/HorizontalVerticalStackLayoutDemo/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HorizontalVerticalStackLayoutDemo.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/bks-ggs/Documents/GitHub/DotNetMaui/HorizontalVerticalStackLayoutDemo/HorizontalVerticalStackLayoutDemo/VerticalStackLayoutDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HorizontalVerticalStackLayoutDemo.VerticalStackLayoutDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = VerticalStackLayoutDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = VerticalStackLayoutDemo.xaml

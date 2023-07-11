@@ -1,4 +1,30 @@
 ﻿<Properties StartupConfiguration="{91F22704-47AE-4D9B-92AF-D3454DFAF8F0}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F49A619E-FE55-4657-9BBF-123C412DE12D" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.StackLayoutDemo FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.StackLayoutDemo PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F49A619E-FE55-4657-9BBF-123C412DE12D" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="StackLayoutDemo/StackLayoutDemo.xaml">
+    <Files>
+      <File FileName="StackLayoutDemo/MainPage.xaml.cs" />
+      <File FileName="StackLayoutDemo/MainPage.xaml" Line="10" Column="38" />
+      <File FileName="StackLayoutDemo/StackLayoutDemo.xaml" Line="9" Column="7" />
+      <File FileName="StackLayoutDemo/App.xaml.cs" Line="12" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="StackLayoutDemo" expanded="True">
+            <Node name="StackLayoutDemo">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
