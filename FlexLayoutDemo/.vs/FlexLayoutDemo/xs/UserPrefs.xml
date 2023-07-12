@@ -1,4 +1,31 @@
 ﻿<Properties StartupConfiguration="{9B1A0940-1C0A-4D2E-807A-5D0D8B9CE5A6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FlexLayoutDemo/FlexLayoutPage.xaml">
+    <Files>
+      <File FileName="FlexLayoutDemo/MainPage.xaml.cs" />
+      <File FileName="FlexLayoutDemo/MainPage.xaml" Line="27" Column="91" />
+      <File FileName="FlexLayoutDemo/FlexLayoutPage.xaml" Line="35" Column="1" />
+      <File FileName="FlexLayoutDemo/App.xaml.cs" Line="13" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FlexLayoutDemo" expanded="True">
+            <Node name="FlexLayoutDemo">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="FlexLayoutPage.xaml" selected="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.FlexLayoutDemo FirstBuild="True" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F49A619E-FE55-4657-9BBF-123C412DE12D" />
+  <MonoDevelop.Ide.ItemProperties.FlexLayoutDemo PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F49A619E-FE55-4657-9BBF-123C412DE12D" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
