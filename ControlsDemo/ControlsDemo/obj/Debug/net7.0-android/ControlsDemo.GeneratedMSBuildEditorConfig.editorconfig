@@ -32,6 +32,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = ControlsDemo.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[/Users/bks-ggs/Documents/GitHub/DotNetMaui/ControlsDemo/ControlsDemo/CollectionControlsDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ControlsDemo.CollectionControlsDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = CollectionControlsDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = CollectionControlsDemo.xaml
+
 [/Users/bks-ggs/Documents/GitHub/DotNetMaui/ControlsDemo/ControlsDemo/ControlsDemo.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ControlsDemo.ControlsDemo.xaml

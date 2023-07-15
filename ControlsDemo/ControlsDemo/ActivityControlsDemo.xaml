@@ -6,5 +6,6 @@
     <VerticalStackLayout>
 
         <ActivityIndicator IsRunning="True" Color="Blue"/>
+        <ProgressBar Progress=".5"/>
     </VerticalStackLayout>
 </ContentPage>
