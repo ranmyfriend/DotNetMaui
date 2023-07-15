@@ -14,6 +14,12 @@ build_property.IncludeAllContentForSelfExtract =
 build_property.RootNamespace = ControlsDemo
 build_property.ProjectDir = /Users/bks-ggs/Documents/GitHub/DotNetMaui/ControlsDemo/ControlsDemo/
 
+[/Users/bks-ggs/Documents/GitHub/DotNetMaui/ControlsDemo/ControlsDemo/ActivityControlsDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ControlsDemo.ActivityControlsDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = ActivityControlsDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = ActivityControlsDemo.xaml
+
 [/Users/bks-ggs/Documents/GitHub/DotNetMaui/ControlsDemo/ControlsDemo/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ControlsDemo.App.xaml
@@ -61,3 +67,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ControlsDemo.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/bks-ggs/Documents/GitHub/DotNetMaui/ControlsDemo/ControlsDemo/TextControlsDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ControlsDemo.TextControlsDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = TextControlsDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = TextControlsDemo.xaml
