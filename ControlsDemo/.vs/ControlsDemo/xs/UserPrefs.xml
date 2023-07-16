@@ -1,32 +1,45 @@
 ﻿<Properties StartupConfiguration="{9D389416-38E1-4333-AFC6-655B07C9D9CF}|Default">
-  <MonoDevelop.Ide.ItemProperties.ControlsDemo PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F49A619E-FE55-4657-9BBF-123C412DE12D" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ControlsDemo/ControlsDemo.xaml.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_32" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ControlsDemo/CollectionControlsDemo.xaml">
     <Files>
       <File FileName="ControlsDemo/MainPage.xaml.cs" />
       <File FileName="ControlsDemo/MainPage.xaml" />
-      <File FileName="ControlsDemo/App.xaml.cs" Line="10" Column="3" />
-      <File FileName="ControlsDemo/ControlsDemo.xaml" Line="57" Column="27" />
+      <File FileName="ControlsDemo/App.xaml.cs" Line="9" Column="40" />
+      <File FileName="ControlsDemo/ControlsDemo.xaml" />
       <File FileName="ControlsDemo/ControlsDemo.xaml.cs" Line="29" Column="2" />
+      <File FileName="ControlsDemo/InputControlsDemo.xaml" Line="26" Column="21" />
+      <File FileName="ControlsDemo/InputControlsDemo.xaml.cs" Line="25" Column="1" />
+      <File FileName="ControlsDemo/TextControlsDemo.xaml" Line="18" Column="1" />
+      <File FileName="ControlsDemo/TextControlsDemo.xaml.cs" Line="19" Column="29" />
+      <File FileName="ControlsDemo/ActivityControlsDemo.xaml" Line="7" Column="1" />
+      <File FileName="ControlsDemo/ActivityControlsDemo.xaml.cs" Line="10" Column="1" />
+      <File FileName="ControlsDemo/CollectionControlsDemo.xaml" Line="145" Column="30" />
+      <File FileName="ControlsDemo/CollectionControlsDemo.xaml.cs" Line="9" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ControlsDemo" expanded="True">
+          <Node name="ControlsDemo">
             <Node name="ControlsDemo" expanded="True">
+              <Node name="ActivityControlsDemo.xaml" expanded="True" />
               <Node name="App.xaml" expanded="True" />
+              <Node name="CollectionControlsDemo.xaml" expanded="True" />
               <Node name="ControlsDemo.xaml" expanded="True" />
+              <Node name="InputControlsDemo.xaml" expanded="True" />
               <Node name="MainPage.xaml" expanded="True" />
+              <Node name="TextControlsDemo.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ControlsDemo PreferredExecutionTarget="Android.pixel_5_-_api_32" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F49A619E-FE55-4657-9BBF-123C412DE12D" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.68" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
