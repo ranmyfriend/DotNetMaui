@@ -1,4 +1,29 @@
 ﻿<Properties StartupConfiguration="{703F0C2E-C392-4BD1-9A3A-AB37BEB6B0FD}|Default">
-  <MonoDevelop.Ide.ItemProperties.ColorMaker FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ColorMaker PreferredExecutionTarget="Android.pixel_5_-_api_32" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ColorMaker/MainPage.xaml">
+    <Files>
+      <File FileName="ColorMaker/MainPage.xaml.cs" Line="10" Column="3" />
+      <File FileName="ColorMaker/MainPage.xaml" Line="12" Column="49" />
+      <File FileName="ColorMaker/App.xaml.cs" Line="8" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ColorMaker" expanded="True">
+            <Node name="ColorMaker">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_32" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

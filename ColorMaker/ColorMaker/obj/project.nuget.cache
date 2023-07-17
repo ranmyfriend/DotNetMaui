@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "xuIlirkSiVKliX4+DcGIDzGXuroRWTAGabOh3OEz3megrJWE27mXc6gymL3SHY5YhiCWnMnrkvRJUxp6gPpd2A==",
+  "dgSpecHash": "Afpc236VMCrqtwttxJcuKl6d8b4rjW1ZBNBHuWqxdP9i84dlQK/BIiHOlLBR8vPq6O0YyKVXWvnM5Ul57ty77g==",
   "success": true,
   "projectFilePath": "/Users/bks-ggs/Documents/GitHub/DotNetMaui/ColorMaker/ColorMaker/ColorMaker.csproj",
   "expectedPackageFiles": [
+    "/Users/bks-ggs/.nuget/packages/communitytoolkit.maui/5.2.0/communitytoolkit.maui.5.2.0.nupkg.sha512",
+    "/Users/bks-ggs/.nuget/packages/communitytoolkit.maui.core/5.2.0/communitytoolkit.maui.core.5.2.0.nupkg.sha512",
     "/Users/bks-ggs/.nuget/packages/googlegson/2.9.1.1/googlegson.2.9.1.1.nupkg.sha512",
     "/Users/bks-ggs/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "/Users/bks-ggs/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
