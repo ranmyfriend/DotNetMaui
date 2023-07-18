@@ -1,4 +1,6 @@
-﻿using CommunityToolkit.Maui.Alerts;
+﻿using System.Diagnostics;
+using CommunityToolkit.Maui.Alerts;
+using System.Text.RegularExpressions;
 
 namespace ColorMaker;
 
@@ -10,7 +12,10 @@ public partial class MainPage : ContentPage
     public MainPage()
 	{
 		InitializeComponent();
-	}
+
+		Debug.WriteLine(GetVibFromENumber("TQ903D03/01"));
+
+    }
 
     void Slider_ValueChanged(System.Object sender, Microsoft.Maui.Controls.ValueChangedEventArgs e)
     {
@@ -27,7 +32,7 @@ public partial class MainPage : ContentPage
 
 	private void SetColor(Color color)
 	{
-        Console.WriteLine(color.ToString());
+        Debug.WriteLine(color.ToString());
         btnRandom.BackgroundColor = color;
 		Container.BackgroundColor = color;
         hexValue = color.ToHex();
@@ -54,6 +59,11 @@ public partial class MainPage : ContentPage
 		await Clipboard.SetTextAsync(hexValue);
 		var toast = Toast.Make("Color copied", CommunityToolkit.Maui.Core.ToastDuration.Short, 12);
 		await toast.Show();
+    }
+
+    public string GetVibFromENumber(string enumber)
+    {
+        return Regex.Match(enumber, @"[^\/]*").Value;
     }
 }
 
