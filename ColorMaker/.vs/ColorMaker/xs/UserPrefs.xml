@@ -1,29 +1,31 @@
 ﻿<Properties StartupConfiguration="{703F0C2E-C392-4BD1-9A3A-AB37BEB6B0FD}|Default">
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F49A619E-FE55-4657-9BBF-123C412DE12D" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ColorMaker PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F49A619E-FE55-4657-9BBF-123C412DE12D" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.ColorMaker PreferredExecutionTarget="Android.pixel_5_-_api_32" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ColorMaker/MainPage.xaml">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ColorMaker/MauiProgram.cs">
     <Files>
-      <File FileName="ColorMaker/MainPage.xaml.cs" Line="10" Column="3" />
-      <File FileName="ColorMaker/MainPage.xaml" Line="12" Column="49" />
-      <File FileName="ColorMaker/App.xaml.cs" Line="8" Column="1" />
+      <File FileName="ColorMaker/MainPage.xaml.cs" />
+      <File FileName="ColorMaker/MainPage.xaml" />
+      <File FileName="ColorMaker/App.xaml.cs" />
+      <File FileName="../../../../.nuget/packages/communitytoolkit.maui/5.2.0/readme.txt" />
+      <File FileName="ColorMaker/MauiProgram.cs" Line="12" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ColorMaker" expanded="True">
+          <Node name="ColorMaker">
             <Node name="ColorMaker">
-              <Node name="App.xaml" expanded="True" />
-              <Node name="MainPage.xaml" selected="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="MauiProgram.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_32" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
 </Properties>
