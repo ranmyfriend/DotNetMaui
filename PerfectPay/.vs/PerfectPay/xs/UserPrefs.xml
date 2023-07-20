@@ -1,28 +1,28 @@
 ﻿<Properties StartupConfiguration="{9FEC2EEF-68AF-44AD-8B07-862358F379A1}|Default">
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_32" />
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.68" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.PerfectPay PreferredExecutionTarget="Android.pixel_5_-_api_32" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.PerfectPay PreferredExecutionTarget="Android.pixel_5_-_api_32" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.68" />
   <MonoDevelop.Ide.Workbench ActiveDocument="PerfectPay/MainPage.xaml">
     <Files>
-      <File FileName="PerfectPay/MainPage.xaml.cs" Line="29" Column="13" />
-      <File FileName="PerfectPay/MainPage.xaml" Line="22" Column="26" />
+      <File FileName="PerfectPay/MainPage.xaml.cs" />
+      <File FileName="PerfectPay/MainPage.xaml" Line="14" Column="30" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PerfectPay" expanded="True">
-            <Node name="PerfectPay">
-              <Node name="MainPage.xaml" selected="True" />
+            <Node name="PerfectPay" expanded="True">
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_32" />
 </Properties>
