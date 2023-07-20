@@ -1,4 +1,33 @@
 ﻿<Properties StartupConfiguration="{90397126-6E59-4AD3-B797-8C00EA834C88}|Default">
-  <MonoDevelop.Ide.ItemProperties.GridLearn FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.GridLearn PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F49A619E-FE55-4657-9BBF-123C412DE12D" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F49A619E-FE55-4657-9BBF-123C412DE12D" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GridLearn/App.xaml.cs">
+    <Files>
+      <File FileName="GridLearn/MainPage.xaml.cs" Line="15" Column="1" />
+      <File FileName="GridLearn/MainPage.xaml" Line="17" Column="1" />
+      <File FileName="GridLearn/AnotherPage.xaml" Line="41" Column="37" />
+      <File FileName="GridLearn/App.xaml.cs" Line="10" Column="3" />
+      <File FileName="GridLearn/AnotherPage.xaml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GridLearn" expanded="True">
+            <Node name="GridLearn">
+              <Node name="App.xaml" expanded="True">
+                <Node name="App.xaml.cs" selected="True" />
+              </Node>
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
 </Properties>

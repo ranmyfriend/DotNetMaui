@@ -10,14 +10,14 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="PerfectPay/MainPage.xaml">
     <Files>
       <File FileName="PerfectPay/MainPage.xaml.cs" />
-      <File FileName="PerfectPay/MainPage.xaml" Line="14" Column="30" />
+      <File FileName="PerfectPay/MainPage.xaml" Line="31" Column="33" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PerfectPay" expanded="True">
             <Node name="PerfectPay" expanded="True">
-              <Node name="MainPage.xaml" expanded="True" selected="True" />
+              <Node name="MainPage.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
