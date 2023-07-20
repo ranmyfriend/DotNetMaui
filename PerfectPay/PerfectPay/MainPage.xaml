@@ -4,29 +4,18 @@
              x:Class="PerfectPay.MainPage"
              BackgroundColor="#323232">
 
-   <ContentPage.Resources>
-       <Color x:Key="SectionsColor">#444444</Color>
-       <Color x:Key="LightFont">#d6d6d6</Color>
-       <Color x:Key="DarkFont">#4fd8eb</Color>
-   </ContentPage.Resources>
+    <ContentPage.Resources>
+        <Color x:Key="SectionsColor">#444444</Color>
+        <Color x:Key="LightFont">#d6d6d6</Color>
+        <Color x:Key="DarkFont">#4fd8eb</Color>
+    </ContentPage.Resources>
 
-    <Grid Margin="15">
-        <Grid.RowDefinitions>
-            <RowDefinition Height=".3*"/>
-            <RowDefinition Height=".7*"/>
-        </Grid.RowDefinitions>
+    <Grid Margin="15" RowDefinitions=".3*,.7*">
         <Frame Padding="10"
                BackgroundColor="{StaticResource SectionsColor}"
                BorderColor="Transparent">
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition Width="200"/>
-                    </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height=".1*"/>
-                    <RowDefinition Height=".9*"/>
-                    </Grid.RowDefinitions>
+            <Grid RowDefinitions=".1*,.9*"
+              ColumnDefinitions="*,.1*,*">
                 <Label Grid.ColumnSpan="3"
                        FontAttributes="Bold"
                        HorizontalTextAlignment="Center"
@@ -46,8 +35,9 @@
                     Grid.Column="1"
                     Margin="0,10,0,0"
                     VerticalOptions="Center"
-                    Color="#adadad"
-                    />
+                    HeightRequest="170"
+                    WidthRequest="1"
+                    BackgroundColor="#adadad"/>
                 <VerticalStackLayout
                     Grid.Row="1"
                     Grid.Column="2"
@@ -58,29 +48,29 @@
                            FontAttributes="Bold"
                            Text="$0.00"
                            TextColor="{StaticResource LightFont}"/>
-                     <Label Margin="0,10,0,0"
+                    <Label Margin="0,10,0,0"
                             Text="TIP"
                             TextColor="{StaticResource LightFont}"/>
                     <Label x:Name="lblTipByPerson"
                            FontAttributes="Bold"
                            Text="$0.00"
                            TextColor="{StaticResource LightFont}"/>
-                    </VerticalStackLayout>
-                </Grid>
+                </VerticalStackLayout>
+            </Grid>
         </Frame>
 
         <Grid Grid.Row="1"
               Margin="0,15,0,0">
-              <Grid.ColumnDefinitions>
-                  <ColumnDefinition Width=".3*"/>
-                  <ColumnDefinition Width=".7*"/>
-              </Grid.ColumnDefinitions>
-              <Grid.RowDefinitions>
-                  <RowDefinition/>
-                  <RowDefinition/>
-                  <RowDefinition/>
-                  <RowDefinition/>
-              </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width=".3*"/>
+                <ColumnDefinition Width=".7*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
             <Label Text="Enter your bill: $"
                    TextColor="{StaticResource LightFont}"
                    VerticalOptions="Center"/>
@@ -150,7 +140,6 @@
                         Clicked="btnPlus_Clicked"/>
             </HorizontalStackLayout>
         </Grid>
-
     </Grid>
 
 </ContentPage>

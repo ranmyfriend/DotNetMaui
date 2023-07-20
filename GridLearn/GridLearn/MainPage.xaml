@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GridLearn.MainPage">
+
+    <Grid RowDefinitions="100,Auto,*,*"
+          ColumnDefinitions="*,*">
+    <Button Grid.Row="0" Grid.Column="0" Text="R(0)C(0)" BackgroundColor="Aqua"/>
+    <Button Grid.Row="0" Grid.Column="1" Text="R(0)C(1)" BackgroundColor="Red"/>
+    <Button Grid.Row="1" Grid.Column="0" Text="R(1)C(0)" BackgroundColor="Purple"/>
+    <Button Grid.Row="1" Grid.Column="1" Text="R(1)C(1)" BackgroundColor="RosyBrown"/>
+    <Button Grid.Row="2" Grid.Column="0" Text="R(2)C(0)" BackgroundColor="Wheat"/>
+    <Button Grid.Row="2" Grid.Column="1" Text="R(2)C(0)" BackgroundColor="Violet"/>
+    <Button Grid.Row="3" Grid.Column="0" Text="R(3)C(0)" BackgroundColor="DarkCyan"/>
+    <Button Grid.Row="3" Grid.Column="1" Text="R(3)C(1)" BackgroundColor="DarkGoldenrod"/>
+    </Grid>
+
+</ContentPage>
+
