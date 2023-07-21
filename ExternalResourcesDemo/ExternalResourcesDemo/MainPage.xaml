@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExternalResourcesDemo.MainPage">
+
+    <!--<Grid BackgroundColor="Black">
+        <Image Source="network"/>
+    </Grid>-->
+
+    <StackLayout BackgroundColor="Black">
+        <Label FontSize="50"
+               FontFamily="GoldenRecord_PERSONAL_USE_ONLY"
+               Text="This is a font test"
+               FontAttributes="Bold"
+               TextColor="White"/>
+        <Label FontSize="50"
+               FontFamily="Balisay"
+                 FontAttributes="Bold"
+               Text="This is a font test"
+               TextColor="White"/>
+             <Label FontSize="50"
+               FontFamily="GoldenRecordOutl_PERSONAL_USE_ONLY"
+               Text="This is a font test"
+               TextColor="White"/>
+
+        <Image>
+            <Image.Source>
+                <FontImageSource FontFamily="Icons"
+                                 Glyph="&#xF16C;"
+                                 Size="500"/>
+                </Image.Source>
+            </Image>
+    </StackLayout>
+
+</ContentPage>
+
