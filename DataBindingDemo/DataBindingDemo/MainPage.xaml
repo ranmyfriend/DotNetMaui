@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:Models="clr-namespace:DataBindingDemo.Models"
+             x:Class="DataBindingDemo.MainPage">
+
+    <!--<ContentPage.Resources>
+        <Models:Person x:Key="person"
+                       Name="Peter"
+                       Address="some address"
+                       Phone="xxxxx"/>
+        </ContentPage.Resources>-->
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="CenterAndExpand">
+
+           <!--<Label x:Name="txtName"
+                  HorizontalOptions="Center"
+                  Text="{Binding Name, Source={StaticResource person}}"
+                  FontSize="50"
+                  VerticalOptions="Center"/>-->
+
+            <!--<Label HorizontalOptions="Center"
+                  FontSize="50"
+                   Text="{Binding Name}"
+                  VerticalOptions="Center"/>
+
+            <Label HorizontalOptions="Center"
+                  FontSize="50"
+                   Text="{Binding Phone}"
+                  VerticalOptions="Center"/>
+
+            <Label HorizontalOptions="Center"
+                  FontSize="50"
+                   Text="{Binding Address}"
+                  VerticalOptions="Center"/>-->
+
+            <Entry HorizontalOptions="CenterAndExpand"
+                  FontSize="50"
+                   Text="{Binding Name}"
+                  VerticalOptions="Center"/>
+
+            <Entry HorizontalOptions="CenterAndExpand"
+                  FontSize="50"
+                   Text="{Binding Phone}"
+                  VerticalOptions="Center"/>
+
+            <Entry HorizontalOptions="CenterAndExpand"
+                  FontSize="50"
+                   Text="{Binding Address}"
+                  VerticalOptions="Center"/>
+
+            <Button
+                x:Name="CounterBtn"
+                Text="Click me"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+
