@@ -1,4 +1,6 @@
 ﻿namespace ExternalResourcesDemo;
+
+using System.Diagnostics;
 using System.Text.Json;
 
 public partial class MainPage : ContentPage
@@ -7,13 +9,13 @@ public partial class MainPage : ContentPage
 	public MainPage()
 	{
 		InitializeComponent();
-        
     }
 
     protected override void OnAppearing()
     {
         base.OnAppearing();
-        LoadMauiAsset();
+
+        Task.Run(async () => await LoadMauiAsset());
     }
 
     async Task LoadMauiAsset()
@@ -23,10 +25,9 @@ public partial class MainPage : ContentPage
 
         var contents = reader.ReadToEnd();
         var p = JsonSerializer.Deserialize<Person>(contents);
-
+        Debug.WriteLine(p);
 
     }
-
 
 }
 
