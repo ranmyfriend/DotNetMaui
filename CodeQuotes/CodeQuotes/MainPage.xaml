@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CodeQuotes.MainPage">
+
+    <Grid x:Name="background">
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0"
+                                 EndPoint="1,1">
+                <GradientStopCollection>
+                    <GradientStop Offset="0" Color="#051937"/>
+                    <GradientStop Offset="0.25" Color="#004d7a"/>
+                    <GradientStop Offset="0.50" Color="#008793"/>
+                    <GradientStop Offset="0.75" Color="#00bf72"/>
+                    <GradientStop Offset="1" Color="#a8eb12"/>
+                </GradientStopCollection>
+            </LinearGradientBrush>
+            <!--<RadialGradientBrush Center="0.5,0.5">
+                <GradientStopCollection>
+                    <GradientStop Offset="0" Color="DarkBlue"/>
+                    <GradientStop Offset=".5" Color="Pink"/>
+                    <GradientStop Offset="1" Color="LightBlue"/>
+                </GradientStopCollection>
+            </RadialGradientBrush>-->
+        </Grid.Background>
+        <Grid Margin="25" RowDefinitions=".8*,.2*">
+            <Label
+                x:Name="quote"
+                Grid.Row="0"
+                FontSize="50"
+                FontFamily="MainFont"
+                HorizontalTextAlignment="Center"
+                Text="Be the change that you wish to see in the world. - Gandhi"
+                TextColor="White"
+                VerticalOptions="Center"/>
+            <Button
+                Grid.Row="1"
+                BackgroundColor="Black"
+                Opacity=".4"
+                Text="Get New Quote"
+                x:Name="btnGenerateQuote"
+                Clicked="btnGenerateQuote_Clicked"/>
+        </Grid>
+    </Grid>
+
+</ContentPage>
+
