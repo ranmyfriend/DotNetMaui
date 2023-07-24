@@ -4,26 +4,42 @@
              x:Class="Hangman.MainPage">
 
     <Grid RowDefinitions=".6*,.4*">
-        <VerticalStackLayout>
+        <VerticalStackLayout Spacing="10">
             <Label
             FontAttributes="Bold"
             HorizontalOptions="Center"
-            Text="Errors: 0 of 6"/>
-            <Image Source="img0.jpg"
+            Text="{Binding GameStatus}"/>
+            <Image Source="{Binding CurrentImage}"
                    HeightRequest="200"/>
-            <Label Text="_ _ _ _ _"
+            <Label Text="{Binding Spotlight}"
                    FontSize="40"
                    HorizontalOptions="Center"
                    VerticalOptions="Center"
                    />
-            <Label Text="You Lost!"
+            <Label Text="{Binding Message}"
                    FontSize="Large"
                    HorizontalOptions="Center"
                    />
             <Button HorizontalOptions="Center"
                     WidthRequest="100"
-                    Text="Reset"/>
+                    Text="Reset"
+                    Clicked="Reset_Clicked"/>
         </VerticalStackLayout>
+        <FlexLayout Grid.Row="1"
+                    Wrap="Wrap"
+                    JustifyContent="SpaceEvenly"
+                    BindableLayout.ItemsSource="{Binding Letters}"
+                    x:Name="LettersContainer">
+            <BindableLayout.ItemTemplate>
+                <DataTemplate>
+                    <Button HeightRequest="50"
+                    WidthRequest="50"
+                    Text="{Binding .}"
+                    Clicked="Button_Clicked"/>
+                </DataTemplate>
+            </BindableLayout.ItemTemplate>
+        </FlexLayout>
+
     </Grid>
 
 </ContentPage>
