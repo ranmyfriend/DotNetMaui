@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rGMQm/+NYfpax/XjpC9v8tJQewUBNiSk0VyIoZ6ldrYXjOvMcU7TNlThPp+qn63DhVGqcKyPV+T/Aa79LjifKQ==",
+  "dgSpecHash": "r2HOFncmj6Aqgq/vigop0kVhJZ8Pi3k3/RCS0M06MC9Oqg+3ZoS+QmVV242MJhqRV3/NDvAuwWMjLu7+rUjaAw==",
   "success": true,
   "projectFilePath": "/Users/bks-ggs/Documents/GitHub/DotNetMaui/AbsoluteLayoutDemo/AbsoluteLayoutDemo/AbsoluteLayoutDemo.csproj",
   "expectedPackageFiles": [
@@ -14,7 +14,7 @@
     "/Users/bks-ggs/.nuget/packages/microsoft.extensions.logging.debug/7.0.0/microsoft.extensions.logging.debug.7.0.0.nupkg.sha512",
     "/Users/bks-ggs/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
     "/Users/bks-ggs/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
-    "/Users/bks-ggs/.nuget/packages/microsoft.maui.graphics/7.0.86/microsoft.maui.graphics.7.0.86.nupkg.sha512",
+    "/Users/bks-ggs/.nuget/packages/microsoft.maui.graphics/7.0.92/microsoft.maui.graphics.7.0.92.nupkg.sha512",
     "/Users/bks-ggs/.nuget/packages/xamarin.android.glide/4.13.2.2/xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "/Users/bks-ggs/.nuget/packages/xamarin.android.glide.annotations/4.13.2.2/xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
     "/Users/bks-ggs/.nuget/packages/xamarin.android.glide.disklrucache/4.13.2.2/xamarin.android.glide.disklrucache.4.13.2.2.nupkg.sha512",

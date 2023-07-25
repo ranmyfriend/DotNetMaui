@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qQkzmJw/kDNTWvGNqEgPTos7RByzihf+344NpRKkR21mN+rQtmY+97UG5Dm43K9LCvo57+h/xMF4ZZDPSHhI9Q==",
+  "dgSpecHash": "ai3rDCLEbYYp8osQgtxJzzJKw85IyiD2UOSeOoxQf5X30MI2GTOogUmJFGDKe87f/CX3FjWPrqC0i6uobMiK6Q==",
   "success": true,
   "projectFilePath": "/Users/bks-ggs/Documents/GitHub/DotNetMaui/GridDemo/GridDemo/GridDemo.csproj",
   "expectedPackageFiles": [
@@ -14,7 +14,7 @@
     "/Users/bks-ggs/.nuget/packages/microsoft.extensions.logging.debug/7.0.0/microsoft.extensions.logging.debug.7.0.0.nupkg.sha512",
     "/Users/bks-ggs/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
     "/Users/bks-ggs/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
-    "/Users/bks-ggs/.nuget/packages/microsoft.maui.graphics/7.0.86/microsoft.maui.graphics.7.0.86.nupkg.sha512",
+    "/Users/bks-ggs/.nuget/packages/microsoft.maui.graphics/7.0.92/microsoft.maui.graphics.7.0.92.nupkg.sha512",
     "/Users/bks-ggs/.nuget/packages/xamarin.android.glide/4.13.2.2/xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "/Users/bks-ggs/.nuget/packages/xamarin.android.glide.annotations/4.13.2.2/xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
     "/Users/bks-ggs/.nuget/packages/xamarin.android.glide.disklrucache/4.13.2.2/xamarin.android.glide.disklrucache.4.13.2.2.nupkg.sha512",
