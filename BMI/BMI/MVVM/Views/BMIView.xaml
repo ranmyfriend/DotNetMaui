@@ -33,7 +33,7 @@
                             <guage:LinearContentPointer IsInteractive="True"
                                                         x:Name="HeightPointer"
                                                         Position="Cross"
-                                                        Value="50">
+                                                        Value="{Binding BMI.Height}">
                                 <guage:LinearContentPointer.Content>
                                     <Grid HeightRequest="25" WidthRequest="50">
                                         <RoundRectangle CornerRadius="5" Fill="#ff0074e3"/>
@@ -41,17 +41,17 @@
                                                Text="{Binding Source={x:Reference HeightPointer}, Path=Value, StringFormat='{0:0}'}"
                                                TextColor="White"
                                                VerticalOptions="Center"/>
-                                        </Grid>
-                                    </guage:LinearContentPointer.Content>
-                                </guage:LinearContentPointer>
-                            </guage:SfLinearGauge.MarkerPointers>
-                        </guage:SfLinearGauge>
-                    </VerticalStackLayout>
-                </Frame>
+                                    </Grid>
+                                </guage:LinearContentPointer.Content>
+                            </guage:LinearContentPointer>
+                        </guage:SfLinearGauge.MarkerPointers>
+                    </guage:SfLinearGauge>
+                </VerticalStackLayout>
+            </Frame>
             <!--#endregion-->
 
-           <!--#region Weight -->
-             <Frame>
+            <!--#region Weight -->
+            <Frame>
                 <VerticalStackLayout>
                     <Label FontSize="Large"
                            HorizontalOptions="Center"
@@ -64,7 +64,7 @@
                             <guage:LinearContentPointer IsInteractive="True"
                                                         x:Name="WeightPointer"
                                                         Position="Cross"
-                                                        Value="50">
+                                                        Value="{Binding BMI.Weight}">
                                 <guage:LinearContentPointer.Content>
                                     <Grid HeightRequest="25" WidthRequest="50">
                                         <RoundRectangle CornerRadius="5" Fill="#ff0074e3"/>
@@ -72,17 +72,113 @@
                                                Text="{Binding Source={x:Reference WeightPointer}, Path=Value, StringFormat='{0:0}'}"
                                                TextColor="White"
                                                VerticalOptions="Center"/>
-                                        </Grid>
-                                    </guage:LinearContentPointer.Content>
-                                </guage:LinearContentPointer>
-                            </guage:SfLinearGauge.MarkerPointers>
-                        </guage:SfLinearGauge>
+                                    </Grid>
+                                </guage:LinearContentPointer.Content>
+                            </guage:LinearContentPointer>
+                        </guage:SfLinearGauge.MarkerPointers>
+                    </guage:SfLinearGauge>
+                </VerticalStackLayout>
+            </Frame>
+            <!--#endregion-->
+
+            <!--#region Result -->
+            <Frame>
+                <VerticalStackLayout>
+                    <Label FontSize="Large"
+                           HorizontalOptions="Center"
+                           Text="{Binding BMI.ResultText}"/>
+                    <guage:SfRadialGauge Margin="0,-55,0,-55">
+                        <guage:SfRadialGauge.Axes>
+                            <guage:RadialAxis
+                                Maximum="50"
+                                Minimum="0"
+                                ShowAxisLine="False"
+                                ShowLabels="False"
+                                ShowTicks="False">
+                                <guage:RadialAxis.Ranges>
+                                    <guage:RadialRange
+                                        EndValue="16"
+                                        EndWidth="0.65"
+                                        Fill="#282E5A"
+                                        StartValue="0"
+                                        StartWidth="0.65"
+                                        WidthUnit="Factor" />
+                                      <guage:RadialRange
+                                       EndValue="17"
+                                        EndWidth="0.65"
+                                        Fill="#616FD9"
+                                        StartValue="16"
+                                        StartWidth="0.65"
+                                        WidthUnit="Factor"/>
+                                     <guage:RadialRange
+                                        EndValue="18.5"
+                                        EndWidth="0.65"
+                                        Fill="#418B45"
+                                        StartValue="17"
+                                        StartWidth="0.65"
+                                        WidthUnit="Factor" />
+                                    <guage:RadialRange
+                                        EndValue="25"
+                                        EndWidth="0.65"
+                                        Fill="#A9DF51"
+                                        StartValue="18.5"
+                                        StartWidth="0.65"
+                                        WidthUnit="Factor" />
+                                    <guage:RadialRange
+                                        EndValue="30"
+                                        EndWidth="0.65"
+                                        Fill="#F68F30"
+                                        StartValue="25"
+                                        StartWidth="0.65"
+                                        WidthUnit="Factor" />
+                                    <guage:RadialRange
+                                        EndValue="35"
+                                        EndWidth="0.65"
+                                        Fill="#D35E5B"
+                                        StartValue="30"
+                                        StartWidth="0.65"
+                                        WidthUnit="Factor" />
+                                    <guage:RadialRange
+                                        EndValue="40"
+                                        EndWidth="0.65"
+                                        Fill="#c21913"
+                                        StartValue="35"
+                                        StartWidth="0.65"
+                                        WidthUnit="Factor" />
+                                    <guage:RadialRange
+                                        EndValue="50"
+                                        EndWidth="0.65"
+                                        Fill="#690b08"
+                                        StartValue="40"
+                                        StartWidth="0.65"
+                                        WidthUnit="Factor" />
+                                    <guage:RadialRange
+                                        EndValue="99"
+                                        EndWidth="0.15"
+                                        Fill="#4D9b9b9b"
+                                        OffsetUnit="Factor"
+                                        RangeOffset="0.63"
+                                        StartValue="0"
+                                        StartWidth="0.15"
+                                        WidthUnit="Factor" />
+                                    </guage:RadialAxis.Ranges>
+                                <guage:RadialAxis.Pointers>
+                                    <guage:NeedlePointer
+                                        x:Name="pointer"
+                                        KnobRadius="15"
+                                        KnobSizeUnit="Pixel"
+                                        NeedleEndWidth="15"
+                                        NeedleLength="0.6"
+                                        NeedleStartWidth="2"
+                                        Value="{Binding BMI.Result}"/>
+                                    </guage:RadialAxis.Pointers>
+                                </guage:RadialAxis>
+                            </guage:SfRadialGauge.Axes>
+                        </guage:SfRadialGauge>
                     </VerticalStackLayout>
-                 </Frame>
-               <!--#endregion-->
-
-
+                </Frame>
+            <!--#endregion-->
         </VerticalStackLayout>
     </ScrollView>
- 
+
 </ContentPage>

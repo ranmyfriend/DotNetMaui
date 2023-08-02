@@ -1,9 +1,12 @@
-﻿namespace BMI.MVVM.Views;
+﻿using BMI.MVVM.ViewModels;
+
+namespace BMI.MVVM.Views;
 
 public partial class BMIViews : ContentPage
 {
 	public BMIViews()
 	{
 		InitializeComponent();
+		BindingContext = new BMIViewModel();
 	}
 }
